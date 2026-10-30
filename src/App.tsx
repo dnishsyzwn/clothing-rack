@@ -401,7 +401,7 @@ export default function App() {
             More room.
           </h2>
           <p>
-            A small digital wardrobe. Four original forms, brought together to
+            A small digital wardrobe. Four everyday pieces, brought together to
             explore the familiar ritual of finding something to wear.
           </p>
           <p>
@@ -426,6 +426,60 @@ export default function App() {
               keys and Enter.
             </p>
           </div>
+          <details className="asset-credits">
+            <summary>Garment &amp; material credits</summary>
+            <p>
+              Cloth-simulated{" "}
+              <a
+                href="https://sketchfab.com/3d-models/hangers-and-tee-shirt-44e260855c7f4c1ca611af8d2370195a"
+                target="_blank"
+                rel="noreferrer"
+              >
+                tee
+              </a>
+              ,{" "}
+              <a
+                href="https://sketchfab.com/3d-models/hangers-and-long-sleeve-shirt-14cc81980a06473a820f811596418fae"
+                target="_blank"
+                rel="noreferrer"
+              >
+                long sleeve
+              </a>
+              , and{" "}
+              <a
+                href="https://sketchfab.com/3d-models/hangers-and-pants-37b92fbde5ca45448c50fc2cb6a376d8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                trousers
+              </a>{" "}
+              by Paul Spooner (dudecon), adapted for this scene. Released under
+              the creator's{" "}
+              <a href="https://ip.tryop.com/" target="_blank" rel="noreferrer">
+                public-domain policy
+              </a>
+              ; also credited under the listings'{" "}
+              <a
+                href="https://creativecommons.org/licenses/by/4.0/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CC BY 4.0
+              </a>{" "}
+              terms.
+            </p>
+            <p>
+              Fabric material maps by Microsoft, donated to the{" "}
+              <a
+                href="https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/SheenCloth"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Khronos glTF sample collection
+              </a>{" "}
+              under CC0.
+            </p>
+          </details>
           <button className="about-return" onClick={() => setAbout(false)}>
             Back to the collection <Arrow />
           </button>

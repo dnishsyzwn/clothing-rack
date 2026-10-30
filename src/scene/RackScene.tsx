@@ -43,35 +43,13 @@ class SceneBoundary extends Component<
   }
 }
 
-function FlatPiece({ kind, color }: { kind: GarmentKind; color: string }) {
-  return (
-    <svg viewBox="0 0 100 160" aria-hidden="true">
-      <path
-        d="M50 10c0-6 8-6 8 0s-8 4-8 12L24 35h52L50 22"
-        fill="none"
-        stroke="#50534a"
-        strokeWidth="1.5"
-      />
-      {kind === "trousers" ? (
-        <path d="M28 36h44l2 38-5 78H54l-4-70-4 70H29l-3-78z" fill={color} />
-      ) : (
-        <path
-          d="m39 34-16 5-18 53 15 6 11-31-2 66q21 5 42 0l-2-66 11 31 15-6-18-53-16-5q-11 12-22 0"
-          fill={color}
-        />
-      )}
-    </svg>
-  );
-}
-
 function SceneFallback() {
   return (
     <div className="scene-fallback">
-      <div className="fallback-rail">
-        {garments.map((g) => (
-          <FlatPiece key={g.id} kind={g.kind} color={g.color} />
-        ))}
-      </div>
+      <img
+        src="/images/rack-poster.png"
+        alt="Four fabric garments resting naturally on their hangers"
+      />
       <p>The studio is shown in still mode. Interactive 3D needs WebGL.</p>
     </div>
   );
@@ -175,7 +153,7 @@ function SceneContents(props: RackSceneProps) {
         const index = garments.findIndex(
           (g, i) =>
             Math.abs(current.worldX - latest.current.positions[i]) <
-              (g.kind === "trousers" ? 0.725 : 1.115) &&
+              (g.width + 0.16) / 2 &&
             Math.abs(current.worldY - (0.85 - (g.length + 0.4) / 2)) <
               (g.length - 0.35) / 2,
         );
@@ -261,21 +239,21 @@ function SceneContents(props: RackSceneProps) {
         dragging={dragging}
         reducedMotion={props.reducedMotion}
       />
-      <ambientLight intensity={0.65} />
-      <hemisphereLight args={["#fffdf4", "#b3b4a7", 1.2]} />
+      <ambientLight intensity={0.18} />
+      <hemisphereLight args={["#fffdf4", "#b3b4a7", 0.65]} />
       <directionalLight
         position={[-4, 7, 6]}
-        intensity={2.5}
+        intensity={3.1}
         color="#fffdf4"
         castShadow
-        shadow-mapSize={[1024, 1024]}
+        shadow-mapSize={[2048, 2048]}
         shadow-camera-left={-8}
         shadow-camera-right={8}
         shadow-camera-top={5}
         shadow-camera-bottom={-6}
-        shadow-normalBias={0.035}
+        shadow-normalBias={0.018}
       />
-      <directionalLight position={[5, 2, -3]} intensity={1.8} color="#e9ede5" />
+      <directionalLight position={[5, 2, -3]} intensity={0.7} color="#e9ede5" />
       <Environment resolution={128}>
         <Lightformer
           form="rect"
@@ -350,10 +328,7 @@ function SceneContents(props: RackSceneProps) {
               }}
             >
               <planeGeometry
-                args={[
-                  garment.kind === "trousers" ? 1.45 : 2.23,
-                  garment.length - 0.35,
-                ]}
+                args={[garment.width + 0.16, garment.length - 0.35]}
               />
               <meshBasicMaterial
                 transparent
@@ -437,8 +412,8 @@ function MovingGarment({
   return (
     <group ref={outer} position={[initialX.current, 0, index * -0.012]}>
       <HangerHook />
-      <group ref={pivot} position={[0, -0.25, 0]}>
-        <group position={[0, 0.25, 0]}>
+      <group ref={pivot} position={[0, -0.3, 0]}>
+        <group position={[0, 0.3, 0]}>
           <GarmentModel kind={kind} color={color} />
         </group>
       </group>

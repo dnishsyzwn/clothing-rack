@@ -1,0 +1,53 @@
+{
+  "uid": "44e260855c7f4c1ca611af8d2370195a",
+  "name": "Hangers and Tee-shirt",
+  "description": "Five different varieties of hanger and a teeshirt that will hang correctly on any one of them. Hangers are (from front to back) Plastic clothes hanger, old style metal wire coathanger, beige velveted hanger, plastic bar hanger, and a posh wood shirt hanger.\n\nThe shirt is UV unwrapped with seperate front and back before the cloth sim, so you can easily change the color, logo, etc. Collar and cuffs are UV seperate as well, especially nice for custom normal mapping (not included).\n\nInterchangable with [these hanging pants](https://sketchfab.com/3d-models/hangers-and-pants-37b92fbde5ca45448c50fc2cb6a376d8), [hanging jumpsuit](https://skfb.ly/pAynE), and [this long sleeve shirt](https://skfb.ly/oqqyn).\n\nLike this model, but need something a bit different? I take commissions! http://peripheralarbor.com/commission/\n\nActual license is \"Public Domain\" see details here https://ip.tryop.com/",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "user": {
+    "uid": "1b7b0bfd07a345349513e2eed5668970",
+    "username": "dudecon",
+    "displayName": "dudecon",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/dudecon",
+    "avatar": {
+      "uid": "6e4391c6a5a44777b94c5a3c6e58dec9",
+      "uri": "https://api.sketchfab.com/v3/avatars/6e4391c6a5a44777b94c5a3c6e58dec9",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 2671,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/cd8cbf33116f4adaa694ec44f7174e28.png"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 5418,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/c6c16058c0db49569e316e2bb7a06ee7.png"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 14165,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/35cf5b02defa480ebb209ca03b01d800.png"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 16483,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/b4a9453e31784188a5570e40e3d55c69.png"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/1b7b0bfd07a345349513e2eed5668970"
+  },
+  "viewerUrl": "https://sketchfab.com/3d-models/hangers-and-tee-shirt-44e260855c7f4c1ca611af8d2370195a",
+  "publishedAt": "2021-10-22T05:29:17.128691"
+}

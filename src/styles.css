@@ -954,3 +954,48 @@ h2 {
     transition-duration: 0.01ms !important;
   }
 }
+.asset-credits {
+  margin-top: 28px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  color: #6b7361;
+  font-size: 10px;
+  line-height: 1.7;
+}
+.asset-credits summary {
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 11px;
+}
+.asset-credits p {
+  margin-top: 12px;
+}
+.asset-credits a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+.scene-fallback {
+  position: relative;
+}
+.scene-fallback img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.scene-fallback > p {
+  position: absolute;
+  bottom: 15px;
+  background: var(--paper);
+  padding: 8px 12px;
+  font-size: 10px;
+}
+.scene-loading {
+  background: var(--paper) url("/images/rack-poster.png") center/cover no-repeat;
+}
+.scene-loading > span {
+  background: var(--paper);
+  padding: 5px 8px;
+}
+.scene-loading .loading-line {
+  padding: 0;
+}

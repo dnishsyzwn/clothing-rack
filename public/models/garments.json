@@ -1,0 +1,20 @@
+{
+  "tee": {
+    "path": "/models/tee.glb",
+    "width": 1.8829,
+    "length": 3.1433,
+    "hangerTop": -0.3
+  },
+  "long-sleeve": {
+    "path": "/models/long-sleeve.glb",
+    "width": 1.8491,
+    "length": 3.1105,
+    "hangerTop": -0.3
+  },
+  "trousers": {
+    "path": "/models/trousers.glb",
+    "width": 1.1923,
+    "length": 3.2288,
+    "hangerTop": -0.3
+  }
+}

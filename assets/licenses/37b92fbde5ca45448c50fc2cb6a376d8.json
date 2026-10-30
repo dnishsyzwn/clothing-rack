@@ -1,0 +1,53 @@
+{
+  "uid": "37b92fbde5ca45448c50fc2cb6a376d8",
+  "name": "Hangers and Pants",
+  "description": "Three different varieties of hanger and a pair of pants that will hang correctly on any one of them. Hangers are (from front to back) Plastic clothes hanger, old style metal wire coathanger, and velveted hanger.\n\nThese hangers are compatible with the [hanging tee-shirt](https://sketchfab.com/3d-models/hangers-and-tee-shirt-44e260855c7f4c1ca611af8d2370195a), [hanging jumpsuit](https://skfb.ly/pAynE), \nand [this long sleeve shirt](https://skfb.ly/oqqyn), so you can use them interchangably.\n\nLike this model, but need something a bit different? I take commissions! http://peripheralarbor.com/commission/\n\nActual license is \"Public Domain\" see details here https://ip.tryop.com/",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "user": {
+    "uid": "1b7b0bfd07a345349513e2eed5668970",
+    "username": "dudecon",
+    "displayName": "dudecon",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/dudecon",
+    "avatar": {
+      "uid": "6e4391c6a5a44777b94c5a3c6e58dec9",
+      "uri": "https://api.sketchfab.com/v3/avatars/6e4391c6a5a44777b94c5a3c6e58dec9",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 2671,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/cd8cbf33116f4adaa694ec44f7174e28.png"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 5418,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/c6c16058c0db49569e316e2bb7a06ee7.png"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 14165,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/35cf5b02defa480ebb209ca03b01d800.png"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 16483,
+          "url": "https://media.sketchfab.com/avatars/6e4391c6a5a44777b94c5a3c6e58dec9/b4a9453e31784188a5570e40e3d55c69.png"
+        }
+      ]
+    },
+    "uri": "https://api.sketchfab.com/v3/users/1b7b0bfd07a345349513e2eed5668970"
+  },
+  "viewerUrl": "https://sketchfab.com/3d-models/hangers-and-pants-37b92fbde5ca45448c50fc2cb6a376d8",
+  "publishedAt": "2021-10-22T16:44:31.331239"
+}

@@ -1,6 +1,6 @@
 # Clothing rack implementation plan
 
-Original proposal, prepared 31 October 2026. Implementation now exists; see README.md for the final stack and run instructions. The delivered scene uses original procedural garment meshes and weave textures authored directly in TypeScript, rather than the proposed Blender/GLB asset pipeline. The final palette follows the second reference: graphite, lichen, oat, and earth.
+Original proposal, prepared 31 October 2026. Implementation now exists; see README.md for the final stack and run instructions. The current scene uses licensed cloth-simulated garment GLBs, fitted hanger supports, and CC0 fabric material maps. Asset normalization is performed in Blender. The palette follows the second reference: graphite, lichen, oat, and earth. The initial procedural clothing has been replaced.
 
 ## 1. Experience and visual direction
 
